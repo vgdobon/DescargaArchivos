@@ -32,7 +32,7 @@ public class Main {
 
         for (Descarga descarga : descargas) {
             if(descarga.getTiempoTotal()>60000){
-                System.out.println("La descarga del archivo: " + descarga.fileName + " ha excedido el tiempo de descarga.");
+                System.out.println("La descarga del archivo: " + descarga.fileName + " ha excedido el tiempo de descarga. ");
             }
         }
 
