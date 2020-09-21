@@ -1,10 +1,6 @@
-import java.util.ArrayList;
 import java.util.List;
 
 public class Gestor {
-
-
-    List<Descarga> descargas = new ArrayList<>();
 
 
     public List<Descarga> comenzarDescarga(List<Descarga> descargas) {
